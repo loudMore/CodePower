@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodePower验证码</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 1px solid #eaeaea;
+        }
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #409EFF;
+            text-decoration: none;
+        }
+        .code-container {
+            background: linear-gradient(135deg, #f0f7ff 0%, #e6f2ff 100%);
+            border-radius: 8px;
+            margin: 30px 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .verification-code {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 32px;
+            font-weight: bold;
+            letter-spacing: 5px;
+            color: #333;
+            background-color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: 1px dashed #409EFF;
+            display: inline-block;
+        }
+        .message {
+            color: #555;
+            margin: 25px 0;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .code-info {
+            font-size: 14px;
+            color: #888;
+            text-align: center;
+            margin-top: 15px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eaeaea;
+            color: #999;
+            font-size: 14px;
+        }
+        .code-block {
+            background-color: #282c34;
+            color: #abb2bf;
+            padding: 15px;
+            border-radius: 5px;
+            overflow: auto;
+            margin: 20px 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .keyword {
+            color: #c678dd;
+        }
+        .string {
+            color: #98c379;
+        }
+        .comment {
+            color: #5c6370;
+        }
+        .number {
+            color: #d19a66;
+        }
+        .function {
+            color: #61afef;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">CodePower</div>
+        </div>
+        
+        <div class="message">
+            <p>亲爱的用户：</p>
+            <p>感谢您注册 CodePower！我们很高兴能为您的编程之旅提供助力。</p>
+            <p>请使用以下验证码完成注册流程：</p>
+        </div>
+        
+        <div class="code-container">
+            <div class="verification-code">${code}</div>
+            <div class="code-info">验证码有效期为5分钟</div>
+        </div>
+        
+        <div class="code-block">
+            <span class="comment">// 您的 CodePower 之旅即将开始</span><br>
+            <span class="keyword">function</span> <span class="function">startCoding</span>() {<br>
+            &nbsp;&nbsp;<span class="keyword">const</span> journey = <span class="keyword">new</span> <span class="function">CodingJourney</span>();<br>
+            &nbsp;&nbsp;journey.<span class="function">setVerificationCode</span>(<span class="string">"${code}"</span>);<br>
+            &nbsp;&nbsp;journey.<span class="function">start</span>();<br>
+            &nbsp;&nbsp;<span class="keyword">return</span> <span class="string">"欢迎加入 CodePower 社区！"</span>;<br>
+            }
+        </div>
+        
+        <div class="message">
+            <p>如果这不是您本人的操作，请忽略此邮件。</p>
+            <p>祝您编程愉快！</p>
+            <p>CodePower团队</p>
+        </div>
+        
+        <div class="footer">
+            <p>© 2026 CodePower. 保留所有权利。</p>
+            <p>这是一封自动发送的邮件，请勿直接回复。</p>
+        </div>
+    </div>
+</body>
+</html> 

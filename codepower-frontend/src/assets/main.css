@@ -1,0 +1,44 @@
+/* 文件说明：全局主样式入口，引入基础样式并补充页面通用布局。 */
+@import './base.css';
+
+* {
+  box-sizing: border-box !important;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#app {
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: block;
+  }
+
+  #app {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+}
+
+.el-container, .el-main {
+  overflow-x: hidden !important;
+}

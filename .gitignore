@@ -1,0 +1,58 @@
+# ===== 构建产物 =====
+target/
+dist/
+build/
+*.jar
+*.war
+*.class
+
+# ===== 依赖 =====
+node_modules/
+.mvn/wrapper/maven-wrapper.jar
+
+# ===== 本地运行时配置（含真实密钥，禁止提交） =====
+application-local.properties
+application-dev.properties
+application-prod.properties
+application-*.local.properties
+application-*.prod.properties
+.env
+.env.local
+*.local.properties
+
+# ===== 日志 =====
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== IDE =====
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+!.vscode/extensions.json
+*.swp
+*.swo
+.settings/
+.project
+.classpath
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 测试与覆盖率 =====
+coverage/
+test-results/
+cypress/videos/
+cypress/screenshots/
+
+# ===== 其他 =====
+*.tsbuildinfo
+dist.tar.gz
+dist.tgz

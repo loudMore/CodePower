@@ -1,0 +1,66 @@
+# 版权声明 · Copyright Notice
+
+**CodePower · 智能编程学习平台**
+
+Copyright (c) 2026 何玉泽 (He Yuze). All Rights Reserved.
+
+---
+
+## 中文声明
+
+本项目为作者的本科毕业设计作品。**作者保留本项目的全部著作权。**
+
+### 授权范围
+
+**允许的使用方式：**
+
+- 个人学习、技术研究与代码阅读
+- 教学参考、技术交流与分享（须注明出处）
+- 在注明来源与作者的前提下引用部分设计思路或代码片段
+
+**禁止的使用方式：**
+
+- **任何形式的商业用途**：包括但不限于将本项目或其衍生作品用于商业产品的开发与销售、商业服务提供、商业项目交付、付费培训课程等
+- **学术不端行为**：在未注明出处的情况下，将本项目整体或实质性部分作为他人成果提交，包括课程作业、毕业设计、学位论文、竞赛作品等
+- **移除或修改本版权声明与作者署名信息**
+- **未经授权的再分发**：将本项目重新发布为其他仓库或产品而不注明原始出处
+
+### 免责声明
+
+本项目仅供学习交流使用。使用者因使用本项目产生的任何直接或间接后果，由使用者自行承担。项目中的第三方依赖组件（如 Judge0、Spring Boot、Vue 等）遵循其各自的许可证。
+
+---
+
+## English Notice
+
+This project is the author's undergraduate graduation design work. **The author retains all copyright to this project.**
+
+### Permitted
+
+- Personal study, technical research, and code reading
+- Teaching reference and technical exchange (with attribution)
+- Quoting partial design ideas or code snippets with clear attribution to the source and author
+
+### Prohibited
+
+- **Any commercial use**, including but not limited to using this project or its derivative works in commercial products, commercial service delivery, commercial project delivery, or paid training courses
+- **Academic misconduct**: submitting this project, in whole or in substantial part, as another party's work without attribution — including coursework, graduation projects, theses, and competition entries
+- Removing or modifying this copyright notice and author attribution
+- Redistributing this project as another repository or product without crediting the original source
+
+### Disclaimer
+
+This project is provided for learning and technical exchange purposes only. Users bear all consequences arising from the use of this project. Third-party dependencies (such as Judge0, Spring Boot, Vue) are governed by their respective licenses.
+
+---
+
+## 联系作者 · Contact
+
+如有商业授权或其他用途需求，请通过以下方式联系：
+
+- Email: 2042292231@qq.com
+- GitHub: 见仓库所有者信息
+
+---
+
+*本项目仅供学习交流使用，未经授权禁止商业用途。*
